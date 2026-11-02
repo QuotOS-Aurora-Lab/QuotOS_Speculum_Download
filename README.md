@@ -28,6 +28,16 @@
 
 体积的九成不是应用本身——是里面带的 yt-dlp（36 MB）和 ffmpeg（48 MB）。
 
+## 旧版本
+
+Speculum 改名前叫 Orbital II。改名前的最后一个版本留在这里，只作存档。
+
+| 文件 | 大小 | 说明 |
+| --- | --- | --- |
+| [Orbital_II_2.0.dmg](../../releases/tag/orbital-ii-2.0) | 63 MB | 2.0（2026-10-27）。Bundle ID 是 `com.lynnescheutie.OrbitalII`，与 `com.scheutie.speculum` 不同，装在同一台机器上不会互相覆盖 |
+
+这个版本不再维护，也不会再修 bug。缺功能或出了问题，换上面的 Speculum 2.2。
+
 ## 安装
 
 1. 下载上面的 DMG，双击打开
@@ -80,6 +90,7 @@ yt-dlp -J        解析元数据与可用格式（只解析，不下载）
 | 文件 | SHA-256 |
 | --- | --- |
 | `Speculum-2.2.dmg` | `cab240732b5e1cdf9e3f2c3e51de62129ae102fc81b5a9e748b7dbb43883a202` |
+| `Orbital_II_2.0.dmg` | `bc4ff0187f6d7f52ff83bfd25a3c42d3f60297d9b351f9de3f15cd66e514cfb2` |
 
 对比方式：`shasum -a 256 文件名`。
 
